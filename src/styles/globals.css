@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.t1 {
+  @apply font-serif-bold text-h1m md:text-h1;
+}
+.t2 {
+  @apply font-serif text-h2 text-h2m md:text-h2;
+}
+.t3 {
+  @apply font-serif-bold text-h3 text-h3m md:text-h3;
+}
+.t3s {
+  @apply font-serif text-h3 text-h3m md:text-h3;
+}
+.b1 {
+  @apply font-serif text-b1m md:text-b1;
+}
+.b2 {
+  @apply font-serif text-b2m md:text-b2;
+}
+.b2b {
+  @apply font-serif-bold text-b2m md:text-b2;
+}
+.b3 {
+  @apply font-serif text-b3m md:text-b3;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  background-color: #E6E6E6;
+}
+
+::selection {
+  background-color: #CF8C7F;
+}
+
+
+
+.scroll-snap-type-x {
+  scroll-snap-type: x mandatory;
+}
+
+.scroll-snap-align {
+  scroll-snap-align: center;
+}
