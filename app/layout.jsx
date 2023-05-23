@@ -1,3 +1,4 @@
+import { Toaster } from "react-hot-toast";
 import { Layout } from "@/components/dom/Layout";
 import "@/global.css";
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
+        <Toaster position="top-center" reverseOrder={false} />
         {/* To avoid FOUT with styled-components wrap Layout with StyledComponentsRegistry https://beta.nextjs.org/docs/styling/css-in-js#styled-components */}
         <Layout>{children}</Layout>
       </body>
