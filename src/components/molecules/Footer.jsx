@@ -6,7 +6,7 @@ import HoverLink from "@/components/atoms/HoverLink";
 const Footer = () => {
   const d = new Date();
   return (
-    <footer className="flex flex-col justify-between h-[400px] md:h-[300px] bg-cream top-8 left-0 right-0 z-50 bg-white h-24  max-w-[65rem] mx-auto rounded-lg drop-shadow-xl px-6 md:px-8 py-10 mb-20 mx-3 md:mx-auto mt-40 mx-4">
+    <footer className="flex flex-col justify-between h-[400px] md:h-[300px] bg-cream top-8 left-0 right-0 z-50 bg-white h-24 max-w-[65rem] mx-auto rounded-lg drop-shadow-xl px-6 md:px-8 py-10 mb-10 md:mb-20 mx-3 md:mx-auto mt-40 mx-5">
       <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 justify-between items-start w-[50%]">
         <TextLogo />
         {/* Links */}
